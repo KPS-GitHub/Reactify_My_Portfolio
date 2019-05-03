@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import Flexbox from "flexbox-react";
 
-import Weblink from "./Weblink.js";
+import Weblink from "./WebLink.js";
 
 class Header extends Component {
   render() {
     return (
       <Flexbox
         flexDirection="row"
-        justifyContent="space-evenly"
+        justifyContent="center"
         maxHeight="20vh"
       >
         <Weblink
