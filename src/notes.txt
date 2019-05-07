@@ -1,0 +1,6 @@
+To-Do:
+-create content pages with placeholder content
+-add sliding+live navbar functionality (in index.js ???)
+
+Code Clean-Up:
+-make simple components into functions

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Flexbox from "flexbox-react";
 
 
 class Weblink extends Component {
@@ -11,13 +10,14 @@ class Weblink extends Component {
         return (
         <a
             style={anchorStyle}
-            class={this.props.name}
+            className={this.props.name}
             target="_blank"
             href={this.props.link}
+            rel="noopener noreferrer"
             title={this.props.name}
         >
             <img
-            class="webLinkIcon"
+            className="webLinkIcon"
             src={this.props.pic}
             alt={this.props.name + " icon"}
             />
