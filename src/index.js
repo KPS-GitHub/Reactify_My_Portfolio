@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Header from "./Components/Header/Header.js"
+import NavBar from "./Components/NavBar/NavBar.js"
 
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <NavBar />
     </div>
   );
 }
